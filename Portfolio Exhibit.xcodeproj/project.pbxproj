@@ -13,6 +13,15 @@
 		96DFBC0429F3859700674729 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DFBBF229F3859100674729 /* ContentView.swift */; };
 		96DFBC0529F3859700674729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96DFBBF329F3859700674729 /* Assets.xcassets */; };
 		96DFBC0629F3859700674729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96DFBBF329F3859700674729 /* Assets.xcassets */; };
+		96DFBC1129F3873300674729 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96DFBC0F29F3873300674729 /* Main.xcdatamodeld */; };
+		96DFBC1229F3873300674729 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96DFBC0F29F3873300674729 /* Main.xcdatamodeld */; };
+		96DFBC1429F3890500674729 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DFBC1329F3890500674729 /* DataController.swift */; };
+		96DFBC1529F3890500674729 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DFBC1329F3890500674729 /* DataController.swift */; };
+		96DFBC1A29F8858600674729 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DFBC1929F8858600674729 /* CloudKit.framework */; };
+		96DFBC1C29F8888F00674729 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DFBC1B29F8888F00674729 /* SidebarView.swift */; };
+		96DFBC1D29F8888F00674729 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DFBC1B29F8888F00674729 /* SidebarView.swift */; };
+		96DFBC1F29F888A000674729 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DFBC1E29F888A000674729 /* DetailView.swift */; };
+		96DFBC2029F888A000674729 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DFBC1E29F888A000674729 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,13 @@
 		96DFBBF829F3859700674729 /* Portfolio Exhibit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Portfolio Exhibit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DFBBFE29F3859700674729 /* Portfolio Exhibit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Portfolio Exhibit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DFBC0029F3859700674729 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		96DFBC1029F3873300674729 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		96DFBC1329F3890500674729 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		96DFBC1629F884D100674729 /* Portfolio Exhibit (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Portfolio Exhibit (iOS).entitlements"; sourceTree = "<group>"; };
+		96DFBC1729F884DB00674729 /* Portfolio-Exhibit--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Portfolio-Exhibit--iOS--Info.plist"; sourceTree = "<group>"; };
+		96DFBC1929F8858600674729 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
+		96DFBC1B29F8888F00674729 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		96DFBC1E29F888A000674729 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96DFBC1A29F8858600674729 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,9 +62,12 @@
 		96DFBBEB29F3859100674729 = {
 			isa = PBXGroup;
 			children = (
+				96DFBC1729F884DB00674729 /* Portfolio-Exhibit--iOS--Info.plist */,
+				96DFBC1629F884D100674729 /* Portfolio Exhibit (iOS).entitlements */,
 				96DFBBF029F3859100674729 /* Shared */,
 				96DFBBFF29F3859700674729 /* macOS */,
 				96DFBBF929F3859700674729 /* Products */,
+				96DFBC1829F8858600674729 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,7 +75,11 @@
 			isa = PBXGroup;
 			children = (
 				96DFBBF129F3859100674729 /* Portfolio_ExhibitApp.swift */,
+				96DFBC1E29F888A000674729 /* DetailView.swift */,
 				96DFBBF229F3859100674729 /* ContentView.swift */,
+				96DFBC1B29F8888F00674729 /* SidebarView.swift */,
+				96DFBC1329F3890500674729 /* DataController.swift */,
+				96DFBC0F29F3873300674729 /* Main.xcdatamodeld */,
 				96DFBBF329F3859700674729 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -76,6 +100,14 @@
 				96DFBC0029F3859700674729 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		96DFBC1829F8858600674729 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96DFBC1929F8858600674729 /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +208,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96DFBC1129F3873300674729 /* Main.xcdatamodeld in Sources */,
+				96DFBC1F29F888A000674729 /* DetailView.swift in Sources */,
+				96DFBC1429F3890500674729 /* DataController.swift in Sources */,
+				96DFBC1C29F8888F00674729 /* SidebarView.swift in Sources */,
 				96DFBC0329F3859700674729 /* ContentView.swift in Sources */,
 				96DFBC0129F3859700674729 /* Portfolio_ExhibitApp.swift in Sources */,
 			);
@@ -185,6 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96DFBC1229F3873300674729 /* Main.xcdatamodeld in Sources */,
+				96DFBC2029F888A000674729 /* DetailView.swift in Sources */,
+				96DFBC1529F3890500674729 /* DataController.swift in Sources */,
+				96DFBC1D29F8888F00674729 /* SidebarView.swift in Sources */,
 				96DFBC0429F3859700674729 /* ContentView.swift in Sources */,
 				96DFBC0229F3859700674729 /* Portfolio_ExhibitApp.swift in Sources */,
 			);
@@ -309,10 +349,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Portfolio Exhibit (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6AYY5GHVLV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Portfolio-Exhibit--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -338,10 +381,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Portfolio Exhibit (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6AYY5GHVLV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Portfolio-Exhibit--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -446,6 +492,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		96DFBC0F29F3873300674729 /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				96DFBC1029F3873300674729 /* Main.xcdatamodel */,
+			);
+			currentVersion = 96DFBC1029F3873300674729 /* Main.xcdatamodel */;
+			path = Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 96DFBBEC29F3859100674729 /* Project object */;
 }
