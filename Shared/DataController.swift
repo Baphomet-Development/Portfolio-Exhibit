@@ -10,11 +10,13 @@ import CoreData
 class DataController: ObservableObject {
     let container: NSPersistentCloudKitContainer
     
+    @Published var selectedFilter: Filter? = Filter.all
+    
     static var preview: DataController = {
         let dataController = DataController(inMemory: true)
         dataController.createSampleData()
         return dataController
-    }
+    }()
     
     init(inMemory: Bool = false) {
         container = NSPersistentCloudKitContainer(name: "Main")

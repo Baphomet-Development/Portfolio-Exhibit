@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96B288BF2A0B6DAA002F5571 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B288BE2A0B6DAA002F5571 /* Filter.swift */; };
+		96B288C02A0B6DAA002F5571 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B288BE2A0B6DAA002F5571 /* Filter.swift */; };
 		96DFBC0129F3859700674729 /* Portfolio_ExhibitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DFBBF129F3859100674729 /* Portfolio_ExhibitApp.swift */; };
 		96DFBC0229F3859700674729 /* Portfolio_ExhibitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DFBBF129F3859100674729 /* Portfolio_ExhibitApp.swift */; };
 		96DFBC0329F3859700674729 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DFBBF229F3859100674729 /* ContentView.swift */; };
@@ -25,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96B288BE2A0B6DAA002F5571 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		96DFBBF129F3859100674729 /* Portfolio_ExhibitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portfolio_ExhibitApp.swift; sourceTree = "<group>"; };
 		96DFBBF229F3859100674729 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		96DFBBF329F3859700674729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,6 +81,7 @@
 				96DFBC1E29F888A000674729 /* DetailView.swift */,
 				96DFBBF229F3859100674729 /* ContentView.swift */,
 				96DFBC1B29F8888F00674729 /* SidebarView.swift */,
+				96B288BE2A0B6DAA002F5571 /* Filter.swift */,
 				96DFBC1329F3890500674729 /* DataController.swift */,
 				96DFBC0F29F3873300674729 /* Main.xcdatamodeld */,
 				96DFBBF329F3859700674729 /* Assets.xcassets */,
@@ -208,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B288BF2A0B6DAA002F5571 /* Filter.swift in Sources */,
 				96DFBC1129F3873300674729 /* Main.xcdatamodeld in Sources */,
 				96DFBC1F29F888A000674729 /* DetailView.swift in Sources */,
 				96DFBC1429F3890500674729 /* DataController.swift in Sources */,
@@ -221,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B288C02A0B6DAA002F5571 /* Filter.swift in Sources */,
 				96DFBC1229F3873300674729 /* Main.xcdatamodeld in Sources */,
 				96DFBC2029F888A000674729 /* DetailView.swift in Sources */,
 				96DFBC1529F3890500674729 /* DataController.swift in Sources */,
